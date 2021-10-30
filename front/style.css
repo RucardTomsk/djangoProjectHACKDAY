@@ -1,0 +1,76 @@
+@font-face{font-family:"EurofontExtendedC";src:url(fonts/eurofontextendedc.97bc5ed.otf);font-style:normal;font-weight:700}
+@font-face{font-family:"EurofontExtendedC";src:url(fonts/EurofontExtendedC-Bold.9221ae9.otf);font-style:normal;font-weight:400}
+
+
+
+body{
+    background-color: #131419;
+    color: white;
+    font-family: "EurofontExtendedC",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.container{
+    max-width: 1066px;
+}
+.container-fluid{
+    max-width: 1236px;
+    
+}
+.navbar-brand{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.navbar{
+    background-color: #131419;
+    border-bottom: 1px solid #bc401c !important;
+    height: 10vh;
+    margin-top: 0px;
+    padding: 12px; 
+    transform: translateY(0px);
+    left: 0px;
+    right: 0px;
+    
+}
+
+input[type="text"]{
+    border: 1px solid #bc401c !important;
+}
+
+#calc{
+
+
+    background-color: #131419;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+@media (min-width: 768px){
+    #calc{
+        height: 90vh;
+        background-image: url(images/planet.png),url(images/stars.png);
+        background-position: 100%,50%;
+    }
+}
+@media (min-width: 1024px){
+    #calc{
+        background-size: 32%,54%;
+    }
+}
+
+@media (min-width: 1280px){
+    #calc{
+        background-size: 38%,68%;
+    }
+}
+
+@media (min-width: 1366px){
+    #calc{
+        background-size: contain;
+    }
+}
+
+
+.col-5{
+    position: relative;
+}
