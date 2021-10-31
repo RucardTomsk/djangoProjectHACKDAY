@@ -1,14 +1,6 @@
 import ccxt
 import requests
 import time
-import pymysql
-
-db = pymysql.connect(
-	host='127.0.0.1',
-	database='hacaton',
-	user='root',
-	password='contrelspawn123'
-	)
 
 #mas_tocken = ['ZRX/USDT','BAT/USDT','SUSHI/USDT','DYDX/USDT','1INCH/USDT']
 def GetAllInformatinExchange(t1,t2):
