@@ -4,7 +4,15 @@
   <filter id="svg_22_blur">
    <feGaussianBlur in="SourceGraphic" stdDeviation="0.1"/>
   </filter>
+
+  <style>
+  text{
+      font-family: Epilogue;
+      src: url('./fonts/Epilogue-VariableFont_wght.ttf');
+  }
+ </style>
  </defs>
+ 
  <g>
   <title>Layer 1</title>
   <path id="svg_1" fill="#fff" d="m733.79,118.28l-96.24,0a0.57,0.57 0 0 0 -0.48,0.87c7.87,12.65 16.08,25.09 23.69,37.91a0.55,0.55 0 0 0 0.48,0.27l36.66,0a0.56,0.56 0 0 1 0.5,0.31l16.28,31.67a0.57,0.57 0 0 0 0.51,0.3l54.87,0a0.57,0.57 0 0 0 0.5,-0.83l-16.25,-31.51l-20,-38.69a0.56,0.56 0 0 0 -0.52,-0.3z" class="cls-1"/>
